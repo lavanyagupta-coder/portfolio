@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya's Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Lavanya</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Hey, I'm Lavanya 👋</h2>
+            <p>Frontend & Backend Developer | AI Enthusiast </p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer who loves building clean, modern web experiences. I enjoy coding, designing, and making things interactive.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>AssetMerkle Clone</h3>
+                <p></p>
+                <a href="https://github.com/lavanyagupta-coder/assertmerkle" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>AI Chatbot</h3>
+                <p></p>
+                <a href="https://github.com/lavanyagupta-coder/chatbot" target="_blank">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio</h3>
+                <p></p>
+                <a href="https://github.com/lavanyagupta-coder/portfolio" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://instagram.com/lavanya_gupta26" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/your_linkedin" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lavanya| All rights reserved</p>
+    </footer>
+</body>
+</html>
